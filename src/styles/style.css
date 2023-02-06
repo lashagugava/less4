@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+img {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+
+.list-style {
+  list-style: none;
+}
+
+.nav-item {
+  font-size: 16px;
+  font-style: italic;
+  color: rgb(254, 254, 254);
+}
+
+.header {
+  background-color: rgb(43, 46, 139);
+  padding: 15px;
+}
+
+.col-6 {
+  width: 45%;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.banner-header {
+  font-size: 80px;
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(4, 4, 28);
+  text-align: center;
+}
+
+.banner-text {
+  font: 20px;
+  font: 500;
+  color: rgb(43, 46, 139);
+  text-align: center;
+}
+
+.col-3 {
+  width: 46%;
+  background-color: rgb(43, 46, 139);
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 16%;
+  height: 200px;
+}
+
+.image-container {
+  width: 45%;
+}
+
+.image-container p {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.btn {
+  margin-top: 26px;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(47, 18, 108);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.textarea-container {
+  margin-top: 24px;
+}
+
+.input-container input {
+  width: 250px;
+  height: 40px;
+}
+
+textarea {
+  width: 100%;
+}
+
+footer {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-color: rgb(43, 46, 139);
+}
+
+.copyright {
+  margin-top: 50px;
+  color: rgb(43, 46, 139);
+}
+
+.footer_copyright {
+  margin-top: 60px;
+}
+
+#contact {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#about-us {
+  margin-top: 100px;
+}
+
+#banner {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+Footer © 2023 Inc. Footer navigation
